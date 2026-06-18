@@ -1,0 +1,33 @@
+# --- Python (backend) ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# --- 로그 데이터 (server.py가 생성하는 CSV) ---
+backend/logs/
+*.csv
+
+# --- STM32CubeIDE 빌드 산물 ---
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.launch
+.metadata/
+.settings/
+
+# --- Arduino/ESP32 빌드 산물 ---
+build/
+*.bin
+
+# --- OS / 에디터 ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
